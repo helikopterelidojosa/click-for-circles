@@ -10,6 +10,11 @@ let ctx = canvas.getContext("2d");
 
 
 
+ctx.beginPath();
+ctx.fillStyle = "#ccffcc";
+ctx.fillRect(0,0,cw,ch);
+ctx.fill();
+
 
 
 function drawCircle(e){
